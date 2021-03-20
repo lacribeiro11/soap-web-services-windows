@@ -33,3 +33,11 @@
 ## Calculator Client
 
 1. Create a new Solution: `ASP.NET Core Web App (MVC)`
+
+1. Add Connected Services
+
+1. Add Microsoft WCF Web Service Reference Provider
+
+1. As End-Point add `http://localhost:51902/CalculatorService.asmx`
+
+1. In Client Option set: Generate Synchronous Operations
