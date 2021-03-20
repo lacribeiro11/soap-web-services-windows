@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorServer", "CalculatorServer.csproj", "{17B48560-9C17-4ACB-AC17-D7608DD7C09D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorClient", "..\CalculatorClient\CalculatorClient.csproj", "{FCB72C08-02E9-42BD-AF36-1DC0624EC21A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{17B48560-9C17-4ACB-AC17-D7608DD7C09D} = {17B48560-9C17-4ACB-AC17-D7608DD7C09D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
