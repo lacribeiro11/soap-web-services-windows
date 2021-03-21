@@ -6,14 +6,7 @@ using System.Web.Services;
 
 namespace CalculatorServer
 {
-    /// <summary>
-    /// Summary description for CalculatorService
-    /// </summary>
-    [WebService(Namespace = "http://calculator.ac.at/")]
-    [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
-    [System.ComponentModel.ToolboxItem(false)]
-    // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
-    // [System.Web.Script.Services.ScriptService]
+    [WebService]
     public class CalculatorService : System.Web.Services.WebService
     {
 

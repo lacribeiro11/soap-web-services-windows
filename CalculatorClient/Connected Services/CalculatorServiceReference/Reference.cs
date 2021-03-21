@@ -12,32 +12,32 @@ namespace CalculatorServiceReference
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://calculator.ac.at/", ConfigurationName="CalculatorServiceReference.CalculatorServiceSoap")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="CalculatorServiceReference.CalculatorServiceSoap")]
     public interface CalculatorServiceSoap
     {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://calculator.ac.at/Add", ReplyAction="*")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Add", ReplyAction="*")]
         int Add(int a, int b);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://calculator.ac.at/Add", ReplyAction="*")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Add", ReplyAction="*")]
         System.Threading.Tasks.Task<int> AddAsync(int a, int b);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://calculator.ac.at/Sub", ReplyAction="*")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Sub", ReplyAction="*")]
         int Sub(int a, int b);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://calculator.ac.at/Sub", ReplyAction="*")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Sub", ReplyAction="*")]
         System.Threading.Tasks.Task<int> SubAsync(int a, int b);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://calculator.ac.at/Mul", ReplyAction="*")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Mul", ReplyAction="*")]
         int Mul(int a, int b);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://calculator.ac.at/Mul", ReplyAction="*")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Mul", ReplyAction="*")]
         System.Threading.Tasks.Task<int> MulAsync(int a, int b);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://calculator.ac.at/Div", ReplyAction="*")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Div", ReplyAction="*")]
         double Div(int a, int b);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://calculator.ac.at/Div", ReplyAction="*")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Div", ReplyAction="*")]
         System.Threading.Tasks.Task<double> DivAsync(int a, int b);
     }
     
